@@ -102,9 +102,16 @@ body{
     width: 150px;
     height: 30px;
     cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    transition: transform 250ms;
 }
 
 .hero-content-text-btn span:hover{
+
     background-color: #0096FF;
     color: #ffffff;
+    transform: translateY(-8px);
 }
