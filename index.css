@@ -47,9 +47,10 @@ body{
 .hero-container
 {
     width: 100%;
-    min-height: calc(100vh-80px);
+    min-height: calc(100vh - 80px);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
 }
 
